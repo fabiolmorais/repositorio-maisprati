@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="forms-ex.css">
+  <title>Formulário de Cadastro E-commerce</title>
+</head>
+<body>
+  <form>
+
+    <label for="nome">Nome Completo:</label>
+    <input type="text">
+
+    <label for="email">Endereço de E-mail</label>
+    <input type="email" name="email" id="email">
+
+    <label for="senha">Senha:</label>
+    <input type="password" name="senha" id="senha">
+
+    <label for="pais">Selecione seu país:</label>
+    <select name="pais" id="pais">
+      <option value="" disabled selected></option>
+      <option value="Brasil">Brasil</option>
+      <option value="Argentina">Argentina</option>
+      <option value="Uruguai">Uruguai</option>
+    </select>
+
+    <fieldset>
+      <legend>Gênero</legend>
+      <input type="radio" name="masculino" id="masculino">
+      <label class="inline-label" for="masculino">Masculino</label><br>
+
+      <input type="radio" name="feminino" id="feminino">
+      <label class="inline-label"  for="feminino">Feminino</label><br>
+
+      <input type="radio" name="outro" id="outro">
+      <label class="inline-label"  for="outro">Outro</label><br>
+    </fieldset>
+
+    <input type="checkbox" name="termos-servicos" id="termos-servicos">
+    <label class="inline-label" for="termos-servicos">Aceitar os termos de serviços</label>
+
+  </form>
+  
+</body>
+</html>
