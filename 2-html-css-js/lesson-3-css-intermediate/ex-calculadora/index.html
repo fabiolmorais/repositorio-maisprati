@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex. Calculadora</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="calc">
+    <nav>
+      <h2>Calculadora</h2>
+      <div class="minimizar"></div>
+      <div class="maximizar"></div>
+      <div class="fechar"></div>
+    </nav>
+    <section class="visor">
+      <div class="historico">
+        <div class="toggle-icone">
+          <input type="checkbox" id="menu-toggle" />
+          <label for="menu-toggle" class="menu-icon">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </label>
+          <h3>Padrão</h3>
+        </div>
+        <div class="historico-icone"></div>
+      </div>
+      <div class="resultado">0</div>
+      <div class="memoria">
+        <h3 class="mc">MC</h3>
+        <h3 class="mr">MR</h3>
+        <h3>M+</h3>
+        <h3>M-</h3>
+        <h3>MS</h3>
+        <h3 class="m">M^</h3>
+      </div>
+    </section>
+    <section class="numeros">
+      <div class="primeira-linha">
+        <button>%</button>
+        <button>CE</button>
+        <button>C</button>
+        <button>Apagar</button>
+      </div>
+      <div class="segunda-linha">
+        <button>1/x</button>
+        <button>x²</button>
+        <button>√x</button>
+        <button>÷</button>
+      </div>
+      <div class="terceira-linha">
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>x</button>
+      </div>
+      <div class="quarta-linha">
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>-</button>
+      </div>
+      <div class="quinta-linha">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>+</button>
+      </div>
+      <div class="sexta-linha">
+        <button>+/-</button>
+        <button>0</button>
+        <button>,</button>
+        <button> =</button>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
