@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta de Endereço</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="logo">
+      <a href="#"><h1>Consulta de Endereço</h1></a>
+    </div>
+  </nav>
+
+  <section class="container">
+    <form method="get" action=".">
+      <input name="cep" id="cep" class="cep" type="text" maxlength="8" placeholder="CEP... Ex: 11234654"  required>
+      <input name="rua" id="rua" placeholder="Endereço" type="text" disabled>
+      <input name="bairro" id="bairro" placeholder="Bairro" type="text" disabled>
+      <input name="cidade" id="cidade" placeholder="Cidade" type="text" disabled>
+      <input name="estado" id="estado" placeholder="Estado" type="text" disabled>
+    </form>
+  </section>
+  
+
+  <!-- Link JS -->
+   <script src="script.js"></script>
+</body>
+</html>
