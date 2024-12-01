@@ -15,7 +15,15 @@ const Home = () => {
         <li>
           <Link to="/lista-tarefas">Lista de tarefas</Link>
         </li>
-        {/* Adicione links para outros desafios aqui */}
+        <li>
+          <Link to="/temporizador">Temporizador</Link>
+        </li>
+        <li>
+          <Link to="/filtro-lista">Filtro de lista</Link>
+        </li>
+        <li>
+          <Link to="/formulario">Formulário de Registro Simples</Link>
+        </li>
       </ul>
     </div>
   );
