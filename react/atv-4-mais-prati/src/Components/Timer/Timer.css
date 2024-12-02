@@ -1,0 +1,25 @@
+.timer-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+input {
+  width: 100px;
+  padding: 5px;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.botoes button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+}

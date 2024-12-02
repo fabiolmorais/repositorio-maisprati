@@ -24,6 +24,18 @@ const Home = () => {
         <li>
           <Link to="/formulario">Formulário de Registro Simples</Link>
         </li>
+        <li>
+          <Link to="/requisicao">Requisição JSON</Link>
+        </li>
+        <li>
+          <Link to="/galeria-imagens">Galeria de Imagens</Link>
+        </li>
+        <li>
+          <Link to="/timer">Timer com Intervalo e Alerta</Link>
+        </li>
+        <li>
+          <Link to="/tabs">Componentes com Tabs Navegáveis</Link>
+        </li>
       </ul>
     </div>
   );
